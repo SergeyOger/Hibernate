@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="postgres-jdbc-16b84b1d0dd-8d49108d0161db6" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - hibernate" save-password="true" read-only="false">
+		<connection host="localhost" port="5432" server="" database="hibernate" url="jdbc:postgresql://localhost:5432/hibernate" user="oher" password="QVVUchQbHUBl8w==" home="postgresql-x64-11" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="false"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>

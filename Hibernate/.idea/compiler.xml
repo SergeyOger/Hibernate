@@ -9,5 +9,8 @@
         <module name="Hibernate" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Hibernate" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

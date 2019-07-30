@@ -1,0 +1,23 @@
+package com.hibernate.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "task_table")
+public class Task {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	private int taskId;
+
+	@Column(name = "task_name")
+	private String taskName;
+	@Column(name = "task_name")
+	private String taskText;
+
+}
